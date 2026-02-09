@@ -26,7 +26,7 @@ for i in range(1,num_layers-1):
 w.append(np.random.randn(num_neurons,out_size)*0.1)
 b.append(np.random.randn(1,out_size))
 
-z =[AIFunctions.neuron(x,w[0],b[0])]
+z =[AIFunctions.neuron(x1,w[0],b[0])]
 a = [AIFunctions.sigmoid(z[0])]
 for i in range(10000):
     for i in range(1,num_layers-1):
@@ -49,4 +49,5 @@ print(w)
 print(b)
 print(f"you asked: {cleaned_user}")
 answer = Embed_tool.decode(a[-1].flatten())
+
 print(f"AI responded: {answer}")
