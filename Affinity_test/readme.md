@@ -1,3 +1,3 @@
-This is an attempt from my end to make an AI trainer, this is a transformer model.
-As its my 1st attempt making, I don't know if I messed it up.
-I took ChatGPT help while coding to understand which function to apply  and how to apply.
+When making an AI, its important to select the neurons which actually respond poitively.
+Like they must have affinity for such input for them to be good at that specific field.
+This python file does that exactly. Selecting the neurons which have highest affinity and listing them together for later project use
