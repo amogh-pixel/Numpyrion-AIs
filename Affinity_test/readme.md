@@ -5,4 +5,4 @@ This first file above (affinity_test.py) is a failed attempt, it selects the lou
 The mistake I made is thinking "higher signal output better the neuron is".
 WRONG! if it had same high response for multiple inputs then it fits the name "better neuron for the purpose X" or "this neuron has higher affinity for  X"
 consistency in output is the key here.
-And the 2nd file (only minor chnages will be made,which I will upload shortly) focuses on finding neurons with this consistency.
+And the 2nd file (which I will upload shortly) focuses on finding neurons with this consistency.
